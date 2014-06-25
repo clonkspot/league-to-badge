@@ -1,0 +1,21 @@
+{
+  "name": "league-to-badge",
+  "version": "0.0.0",
+  "description": "Adds mwforum badges for the current highest-ranking league players.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clonkspot/league-to-badge/"
+  },
+  "keywords": [
+    "clonk"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "~2.3.2",
+    "array.prototype.find": "~0.1.1"
+  }
+}

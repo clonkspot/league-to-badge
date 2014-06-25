@@ -1,0 +1,22 @@
+{
+  "mysql": {
+    "league": {
+      "database": "league",
+      "socketPath": "/var/lib/mysql/mysql.sock",
+      "user": "root",
+      "password": ""
+    },
+    "forum": {
+      "database": "forum",
+      "socketPath": "/var/lib/mysql/mysql.sock",
+      "user": "root",
+      "password": ""
+    }
+  },
+  "leagues": [
+    {
+      "id": 1,
+      "badge": "MeleeLeagueWinner"
+    }
+  ]
+}
