@@ -37,6 +37,7 @@ function(err, rows, fields) {
 	  [badge, row.name],
 	  function(err) {
 		if (err) throw err;
+		console.log(['Awarded', badge, 'badge to', row.name].join(' '));
 	  }
 	);
   });
